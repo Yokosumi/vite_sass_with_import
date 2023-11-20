@@ -20,3 +20,14 @@
 .ball-004 {
   @include ball(mix(blue, red), 1rem);
 }
+
+$colors: purple, orchid, goldenrod, hotpink;
+
+@for $i from 1 through length($colors) {
+  .box-#{$i} {
+    background-color: nth($colors, $i);
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+  }
+}
