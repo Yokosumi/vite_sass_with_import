@@ -1,18 +1,19 @@
 @import "../abstracts/mixins";
 .error-text {
-  @include alert-text(darkred);
+  @include alert-text(tomato);
 }
 
-// .info-text {
-//   @include alert-text(darkgreen, null);
-// }
+.info-text {
+  @include alert-text(lightblue, 2px dashed navy);
+}
 
-// .normal-text {
-//   @include alert-text();
-// }
+.normal-text {
+  @include alert-text(white, null);
+}
 
-// .faded-text {
-//   @include alert-text() {
-//     opacity: 0.5;
-//   }
-// }
+.faded-text {
+  @include alert-text {
+    opacity: 0.5;
+    border: 0px;
+  }
+}
