@@ -8,3 +8,10 @@
   background-color: $color;
   @content;
 }
+
+@mixin ball($bgcolor, $size) {
+  background-color: $bgcolor;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
