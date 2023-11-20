@@ -12,10 +12,11 @@
   @extend %shadow;
 }
 
-// .ball-003 {
-//   @include ball(mix(red, yellow), 3rem);
-// }
+.ball-003 {
+  @include ball(mix(red, yellow), 3rem);
+  @extend %shadow;
+}
 
-// .ball-004 {
-//   @include ball(mix(green, orange), 1rem);
-// }
+.ball-004 {
+  @include ball(mix(blue, red), 1rem);
+}
