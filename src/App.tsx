@@ -20,6 +20,11 @@ function App() {
       <p className="box-3 spacing"></p>
       <p className="box-4 spacing"></p>
       <p className="box-5 spacing"></p>
+
+      <p className="rectangle-purple spacing"></p>
+      <p className="rectangle-orchid spacing"></p>
+      <p className="rectangle-goldenrod spacing"></p>
+      <p className="rectangle-hotpink spacing"></p>
     </>
   );
 }

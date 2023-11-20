@@ -31,3 +31,12 @@ $colors: purple, orchid, goldenrod, hotpink;
     border: 1px solid black;
   }
 }
+
+@each $color in $colors {
+  .rectangle-#{$color} {
+    background-color: $color;
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid black;
+  }
+}
